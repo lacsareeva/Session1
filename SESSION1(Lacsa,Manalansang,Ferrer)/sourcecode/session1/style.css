@@ -1,0 +1,409 @@
+* {
+    user-select: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fde7f9;
+    background-image: linear-gradient(315deg, #fde7f9 0%, #aacaef 74%);
+    
+}
+#DepartmentList{
+ padding: 3px 3px 3px 3px;
+ margin: 10px 100px 100px 100px;
+
+}
+#AssetGroupList{
+    padding: 3px 3px 3px 3px;
+    margin: 10px 10px 10px 10px;
+}
+.assetlist{
+    padding: 10px 13px 10px 13px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+.table-container .fas.fa-share-square,
+.fas.fa-pen, .fas.fa-history{
+    color: black;
+    padding-left: 1px;
+}
+
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-container  th,
+.table-container  td {
+    padding: 3px;
+    border-bottom: 1px solid black;
+}
+.numrows{
+    text-align: right;
+    color: black;
+    padding: 5px 5px 5px 5px;
+    font-weight: bold;
+}
+  
+.searchbtn{
+    width: 73px; 
+    background-color:#007bff;
+    border-radius: 7px;
+    border-color: #007bff;
+  }
+.search-container{
+    padding: 5px 5px 5px 5px;
+
+}
+.search-container .fas.fa-book-open{
+    background-color: #007bff;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    border-radius: 3px;
+}
+
+.search-container .fas.fa-search{
+    background-color: #007bff;
+    color: white;
+    padding: 4px 4px 4px 4px;
+}
+.round-button {
+    background-color: #007bff; 
+    border: none; 
+    color: white;
+    padding: 15px 32px; 
+    text-align: center;
+    text-decoration: none; 
+    display: inline-block; 
+    position: sticky;
+    font-size: 26px; 
+    margin-left: 50%;
+    cursor: pointer;
+    border-radius: 50%; 
+    margin-top: 8%;
+    margin-left: 82%;
+    margin-bottom: 10px;
+
+}
+
+.session-container {
+    position: relative;
+}
+
+/* Normal styles */
+.session-container .container {
+   
+    border: 5px solid black;
+    position: absolute;
+    width: 500px;
+    height: auto;
+    display: none;
+    background-color: white;
+    border-radius: 45px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 200px;
+}
+.session-container .header {
+    background: url('img/header.png') no-repeat;
+    background-size: 500px;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    height: 80px; 
+}
+.session-container .footer {
+    background: url('img/footer.png') no-repeat;
+    background-size: 500px;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    height: 80px; 
+   
+}
+
+/* Landscape div to hide */
+.landscape-div{
+    display: block;
+
+}
+.landscape-div .container1 {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 21px solid black;
+    position: absolute;
+    width: 90%; 
+    display: block;
+    border-radius: 10px;
+    background-color: gainsboro;
+    margin-left: 30px;
+}
+.container1 p{
+    padding: 10px 10px 10px 10px;
+    background-color: black;
+    color: #f0f0f0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.table-contain th,
+.table-contain td {
+    padding: 3px;
+    border-bottom: 1px solid black;
+}
+/* Style of Register new asset file */
+
+.session-container1 {
+    position: relative;
+}
+
+.session-container1 .container {
+    border: 5px solid black;
+    position: absolute;
+    width: 500px; 
+    height: auto;
+    background-color: white;
+    border-radius: 45px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 200px;
+    
+}
+.session-container1 .header {
+
+    background: url('img/header.png') no-repeat;
+    background-size: 500px; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 80px; /
+
+}
+.session-container1 .footer {
+    background: url('img/footer.png') no-repeat;
+    background-size: 500px; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    height: 80px;
+    margin-top: 200px;
+   
+}
+.AssetInfo{
+    padding: 10px 5px 10px 10px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    margin-top: 5px;
+   
+}
+.backbtn{
+     background-color: #f0f0f0;
+     font-weight: bold;
+     margin-left: 270px;
+ padding: 5px 15px 5px 15px;
+      border-radius: 4px;
+}
+
+#DepartmentList{
+    padding: 3px 3px 3px 3px;
+    margin:  10px 10px 10px 10px;
+    width: 170px;
+}
+#LocationList{
+    padding: 3px 3px 3px 3px;
+    margin:  10px 10px 10px 10px;
+    width: 170px;
+}
+#AssetList{
+    padding: 3px 3px 3px 3px;
+    margin:  10px 10px 10px 10px;
+    width: 170px;
+}
+#EmployeeList{
+    width: 170px;
+    padding: 3px 3px 3px 3px;
+    margin:  10px 10px 10px 10px;
+}
+
+.CI{
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    cursor:pointer;
+    font-weight: bold;
+    margin-left: 230px;
+    padding: 5px 12px 5px 12px;
+    border-radius: 4px; 
+}
+.browse{
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    cursor:pointer;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 4px;  
+    width:120px; 
+}
+.submit{
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    cursor:pointer;
+    font-weight: bold;
+    margin-left: 230px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 4px; 
+    width:120px; 
+}
+.cancel{
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    cursor:pointer;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 4px;  
+    width:120px; 
+
+}
+
+/*Transfer History styles */
+.button1{
+    background-color: black;
+   margin-top: 50px;
+    color: white;
+    cursor:pointer;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 350px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 4px; 
+    width:100px; 
+
+}
+.noAsset{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 150px;
+    padding-left: 150px;
+}
+.contain .fas.fa-battery-three-quarters{
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 4px;
+}
+.contain .fas.fa-wifi{
+   
+    padding-left: 410px;
+}
+/*Transfer Asset styles */
+.Transfer-Container{
+    position: relative;
+}
+
+.Transfer-Container .Portrait{  
+    border: 5px solid black;
+    position: absolute;
+    width: 500px;
+    height: auto;
+    background-color: white;
+    border-radius: 45px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 200px;
+}
+.Transfer-Container .header {
+    background: url('img/header.png') no-repeat;
+    background-size: 500px;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    height: 80px; 
+}
+.Transfer-Container .footer {
+    background: url('img/footer.png') no-repeat;
+    background-size: 500px;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    height: 80px;    
+}
+.header1{
+    padding-left:10px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    border: 1px solid black;
+    margin-top: 10px;
+    height:53px;
+}
+.header1 a{
+text-decoration:none;
+background-color: white;
+    border: 2px solid black;
+    color: black;
+    cursor:pointer;
+    font-weight: bold;
+    margin-left: 280px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 4px;  
+    width:120px; 
+}
+.line{
+    padding: 10px 10px 10px 10px;
+    
+}
+#SA{
+    font-weight: bold;
+  font-size: 18px;
+  margin-left: 3px;
+}
+#DesDept{
+  font-weight: bold;
+  font-size: 18px;
+}
+select{
+    margin-left: 10px;
+    width: 210px;
+    height:25px;
+
+}
+label{
+    margin-left: 10px;
+    width: 200px;
+    height:20px;
+}
+input[type="text"]{
+    margin-left: 10px;
+    width: 200px;
+    height:20px;
+    background-color: white;
+}
+.cursor{
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    cursor:pointer;
+    font-weight: bold;
+    margin-left: 280px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 4px; 
+    width:120px; 
+    margin-bottom: 30px;
+}
+.cancel{
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    cursor:pointer;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 4px;  
+    width:120px; 
+    margin-bottom:30px;
+    text-decoration: none; 
+}
+.button-list{
+    margin-bottom:30px;
+    margin-top: 28%;
+}
